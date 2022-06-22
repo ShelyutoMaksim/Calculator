@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+<div id="mainBlock" class="mainBlock">
+    <div class="calculator">
+        <div class="window">
+            <div class="test" id="input">0</div>
+            <div class="test">_________________________________</div>
+            <div class="test" id="result">0</div>
+        </div>
+
+        <div class="plate">
+            <div id="buttonRadical" class="button" onclick="radical(0)">&#8730</div>
+            <div id="buttonArgument" class="button" onclick="argument(0)">+/-</div>
+            <div id="buttonReset" class="button" onclick="reset(0)">&#8594</div>
+            <div id="buttonClear" class="button" onclick="cl(0)">C</div>
+            <div class="numberButton" onclick="number(7)">7</div>
+            <div class="numberButton" onclick="number(4)">4</div>
+            <div class="numberButton" onclick="number(1)">1</div>
+            <div class="numberButton" onclick="number(0)">0</div>
+            <div class="numberButton" onclick="number(8)">8</div>
+            <div class="numberButton" onclick="number(5)">5</div>
+            <div class="numberButton" onclick="number(2)">2</div>
+            <div class="numberButton" onclick="number('00')">00</div>
+            <div class="numberButton" onclick="number(9)">9</div>
+            <div class="numberButton" onclick="number(6)">6</div>
+            <div class="numberButton" onclick="number(3)">3</div>
+            <div class="numberButton" onclick="number('.')">.</div>
+            <div id="buttonDivision" class="button" onclick="division(0)">&#247;</div>
+            <div id="buttonMultiplication" class="button" onclick="multiplication(0)">&#215;</div>
+            <div id="buttonPlus" class="button" onclick="plus(0)">+</div>
+            <div id="buttonMinus" class="button" onclick="minus(0)">-</div>
+            <div id="buttonPerсent" class="button" onclick="percent(0)">%</div>
+            <div id="buttonEqual" class="button" onclick="equal(1)">=</div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<script src="Calculator.js"></script>
+</body>
+</html>

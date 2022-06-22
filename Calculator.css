@@ -1,0 +1,82 @@
+.mainBlock{
+    width: auto;
+    height: 700px;
+    background: #e2e6f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    width: 430px;
+    height: 520px;
+    background: #dabeff;
+    border: 1px solid black;
+    border-radius: 5px 5px;
+    box-shadow: 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: default;
+}
+
+.window {
+    width: 408px;
+    height: 130px;
+    background: #e2e6f5;
+    border: solid 3px #9f2eea;
+    border-radius: 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.plate {
+    width: 420px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.button, .numberButton{
+    width: 60px;
+    height: 60px;
+    background: #a6a6a6;
+    border: 1px solid black;
+    border-radius: 2px 2px;
+    box-shadow: 0 0 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.button:hover, .numberButton:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.numberButton{
+    background: #e5e5e5;
+}
+
+/*154*/
+#buttonPlus,#buttonEqual{
+    height: 133px;
+    background: #9b71ff;
+}
+
+.test {
+    width: 406px;
+    height: 41px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
